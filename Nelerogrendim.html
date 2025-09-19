@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <title>Neler öğrendik?</title>
+  <style>
+    body{font-family: Tahoma, Arial, sans-serif; line-height:1.5; padding:20px;}
+    h1{color:#c00;}
+    .section-title{color:blue; font-size:1.1rem; margin-top:12px;}
+    .section-text{font-size:0.95rem; color:#111;}
+  </style>
+</head>
+<body>
+  <h1>NELER ÖĞRENDİK?</h1>
+
+  <div>
+    <div class="section-title">Sıralı listeler</div>
+    <div class="section-text">
+      Liste içine alınacak metinler <code>&lt;ol&gt;</code> etiketleri arasına alınarak yazılır.
+      Bu etiketler listenin başladığını ve bittiğini gösterir. Listenin maddelerinin başına
+      <code>&lt;li&gt;</code> (list item) etiketi getirilir. Ol etiketinin alt parametreleri olan;
+      Type: listenin rakamla mı harfle mi başlayacağını söyler. Start: hangi rakam/harfle başlayacağını belirtir.
+      Compact parametresi: listenin mümkün olduğunca minimum satır aralığına sahip olmasını sağlar.
+    </div>
+
+    <div class="section-title">Sırasız listeler</div>
+    <div class="section-text">
+      Bu tip listelerde de mantık aynıdır. Yalnız burada rakam ve harf yerine küçük daire ve kareler kullanılır.
+      Etiket olarak <code>&lt;ul&gt; ... &lt;/ul&gt;</code> kullanılır. Liste maddeleri için yine <code>&lt;li&gt;</code> kullanılır.
+      Type parametresi: <code>circle</code>, <code>square</code>, <code>disc</code> gibi değerler alır.
+    </div>
+
+    <div class="section-title">Tanımlama listeleri</div>
+    <div class="section-text">
+      Bu listelemede madde başlarında işaret kullanılmaz; sadece her maddenin başlığı ile gövdesi ayrılarak yazılır.
+      Bu tip bir listeleme için <code>&lt;dl&gt; ... &lt;/dl&gt;</code> etiketleri kullanılır. Maddelerin başlığını göstermek için
+      <code>&lt;dt&gt;</code>, gövdesi için <code>&lt;dd&gt;</code> kullanılır.
+    </div>
+  </div>
+</body>
+  </html>
+  
